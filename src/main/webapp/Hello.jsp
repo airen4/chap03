@@ -8,6 +8,7 @@
 <title>Hello.jsp</title>
 </head>
 <body>
+<h1>Hello jsp..</h1>
  현재시간: <%= new Date() %>
 	
 	
