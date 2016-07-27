@@ -1,0 +1,46 @@
+
+GET / HTTP/1.0
+
+GET / HTTP/1.1
+Host:www.google.com:80
+
+telnet localhost 8080
+
+GET /Hello.html HTTP/1.1
+Host:localhost:8080
+
+GET /Hello.jsp HTTP/1.1
+Host:localhost:8080
+
+GET /deptList.jsp HTTP/1.1
+Host:localhost:8080
+
+GET /Hello.jsp?name=camus&addr=SilkPalace HTTP/1.1
+Host:localhost:8080
+
+POST /Hello.jsp HTTP/1.1
+Host:localhost:8080
+Content-Length:30
+Content-Type:application/x-www-form-urlencoded
+
+name=camus&addr=SilkPalace
+
+GET /redirect.jsp HTTP/1.1
+Host:localhost:8080
+
+
+
+request.jsp 만들어서 id 출력...pw도 아무거나...
+cmd로 get과 post 만들기...
+
+webborwser에서 3군데서 다 해보기....
+
+GET /request.jsp?id=camus&pw=SilkPalace HTTP/1.1
+Host:localhost:8080
+
+POST /request.jsp HTTP/1.1
+Host:localhost:8080
+Content-Length:30
+Content-Type:application/x-www-form-urlencoded
+
+id=mikaze_ai&pw=Saotome_Gakuen
